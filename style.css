@@ -18,7 +18,12 @@ input{
   /* padding: 0 10px; */
   /* text-align: center; */
 }
-p{
+p.out{
+  color: #d4d5e0;
+  font-size: 14px;
+  font-weight: 500;
+}
+li{
   color: #d4d5e0;
   font-size: 14px;
   font-weight: 500;

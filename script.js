@@ -488,6 +488,7 @@ const fractomixed = (numer, denom) => {
 // console.log(solve("2_4/5 * 1_2/3" ))
 // console.log(solve("2_4/5 / 1_2/3" ))
 // }
+
 const handler = () =>{
   focused = true
 }
@@ -500,7 +501,7 @@ onkeydown = (k) =>{
   if(focused == true){
     if(k.key == "Enter"){
       try{
-        document.getElementById("p").innerText = (solve(document.getElementById("in").value))
+        document.getElementById("p").innerText = `Answer: ${(solve(document.getElementById("in").value))}`
       }catch(e){
         document.getElementById("p").innerText = "error in input"
       }

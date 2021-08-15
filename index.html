@@ -3,12 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Fraction Calculator</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <input id = "in" placeholder="Type expression here">
-    <p id="p"></p>
+    <input id = "in" placeholder="Type expression here and press enter to submit">
+    <p id="p" class = "out"></p>
+    <p class ="out">Fraction Calculator</p>
+    <ol>
+      <li>Mixed numbers are typed as whole_numerator/denomenator</li>
+      <li>Operators must have 1 space before and after them such as 1/2 + 3_4/5</li>
+    </ol>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="script.js"></script>
   </body>
